@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Handjet&family=Hind:wght@500&family=Jost:wght@500&family=Lexend&family=Vina+Sans&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Handjet&family=Hind:wght@500&family=Jost:wght@500&family=Lexend&family=Vina+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="parent-of-form">
+        <form>
+        
+<div class="nav">
+              <div class="heading-form"><h1>
+               SCHOOL REGISTER
+              </h1></div>
+            </div>
+
+              
+        
+<div class="info-form">
+              <div class="name-form">
+                <label for="name">YOUR-NAME</label> <br/>
+                <input type="text" id="name">
+              </div>
+
+              <div class="name-form">
+
+                <label for="class">YOUR-CLASS</label><br/>
+                <input type="text" id="class">
+              </div>
+
+              <div class="name-form">
+                <label for="board">YOUR-BOARD</label> <br/>
+                <input type="text" id="board">
+              </div>
+
+              <div class="name-form">
+                <label for="selectOption">OPTIONAL-SUBJECT</label>
+                  
+      
+                  
+               <select id="selectOption">
+                <option value="INFORMATION-TECHNOLOGY">IT</option>
+                 <option value="ENVIROMENTAL-SCIENCE">ES</option>
+                   </select><br/>
+                  <input type="text" id="inputField" readonly>
+              </div>
+
+              <!-- <div class="class">
+                <label for="class">OPTIONAL-SUBJECT</label>
+
+                <input type="text" placeholder="XI" id="class">
+              </div> -->
+
+              <div class="name-form">
+                <label for="age">YOUR-AGE</label><br/>
+                <input type="text" id="age">
+              </div>
+
+
+              <div class="name-form">
+                <label for="birth">YOUR-BIRTH_PLACE</label><br/>
+                <input type="text"  id="birth">
+              </div>
+            </div>
+
+            <div class="form-button">
+              <button>
+                  SUBMIT
+              </button>
+            </div>
+    
+
+        </form>
+        
+    </div>
+
+    <script>
+    
+        const selectElement = document.getElementById('selectOption');
+        const inputElement = document.getElementById('inputField');
+      
+  
+        selectElement.addEventListener('change', function() {
+      
+          const selectedValue = selectElement.value;
+          
+    
+          inputElement.value = selectedValue;
+        });
+
+      </script>
+
+
+      
+</body>
+</html>

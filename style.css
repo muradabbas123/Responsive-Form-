@@ -1,0 +1,1174 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* background-color: rgb(57,255,20) */
+  
+    /* font-family: 'Handjet', cursive;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Vina Sans', cursive; */
+}
+
+.parent-of-form {
+  background: #a53f3f;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh; 
+
+    
+ 
+  }
+
+  form{
+    background: #794242;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 2px solid black;
+    width: 22%;
+    height: 900px;
+    padding: 0px 10px 10px 10px;
+    box-shadow: 4px 4px 2px 20px rgba(0, 0, 0, 0.717);
+   
+  } 
+
+  .heading-form{
+    /* font-family: 'Cabin', sans-serif;
+font-family: 'Handjet', cursive;
+font-family: 'Hind', sans-serif;
+font-family: 'Jost', sans-serif;
+font-family: 'Lexend', sans-serif; */
+font-family: 'Vina Sans', cursive;
+    /* margin-top: 20px; */
+    padding: 20px 20px 20px 20px;
+    font-size: 40px;
+  }
+  
+.info-form{
+  /* overflow: hidden; */
+    /* margin-top: 40px; */
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    /* min-height: 100vh;  */
+
+}
+
+.name-form{
+
+  font-family: 'Cabin', sans-serif;
+  /* overflow: hidden; */
+  margin-left: 20px;
+  padding: 0px 10px 20px 40px;
+  width: 100%;
+  font-size: 20px;
+}
+
+.name-form input{
+  /* zoom: 2; */
+color: #3d3535;
+background-color: antiquewhite;
+  /* font-size: 40px; */
+  height: 35px;
+  width: 99%;
+  font-size: 28px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.nav{
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.name-form label{
+  background-color: #794242;
+
+}
+
+/* .name-form text{
+  font-size: 2px;
+} */
+
+select{
+  background-color: #322e2e;
+  color: aliceblue;
+}
+
+input ::placeholder{
+  font-size: 1px;
+}
+button{
+  color: #a39999;
+  background-color: black;
+  font-family: 'Poppins', sans-serif;
+
+
+}
+
+@media (max-width: 2174px) { 
+  .parent-of-form {
+    background: #a53f3f;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      min-height: 100vh; 
+  
+      
+   
+    }
+  
+    form{
+      background: #794242;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      border: 2px solid black;
+      width: 22%;
+      height: 900px;
+      padding: 0px 10px 10px 10px;
+      box-shadow: 4px 4px 2px 20px rgba(0, 0, 0, 0.717);
+     
+    } 
+  
+    .heading-form{
+      /* font-family: 'Cabin', sans-serif;
+  font-family: 'Handjet', cursive;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Jost', sans-serif;
+  font-family: 'Lexend', sans-serif; */
+  font-family: 'Vina Sans', cursive;
+      /* margin-top: 20px; */
+      padding: 20px 20px 20px 20px;
+      font-size: 35px;
+    }
+    
+  .info-form{
+    /* overflow: hidden; */
+      /* margin-top: 40px; */
+      gap: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     
+      /* min-height: 100vh;  */
+  
+  }
+  
+  .name-form{
+  
+    font-family: 'Cabin', sans-serif;
+    /* overflow: hidden; */
+    /* margin-left: 20px;
+    margin-right: 40px;
+    padding: 0px 40px 20px 40px; */
+    width: 100%;
+    font-size: 20px;
+  }
+  
+  .name-form input{
+    /* zoom: 2; */
+  color: #3d3535;
+  background-color: antiquewhite;
+    /* font-size: 40px; */
+    height: 35px;
+    width: 80%;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  
+  .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+  
+  .name-form label{
+    background-color: #794242;
+  
+  }
+  
+  /* .name-form text{
+    font-size: 2px;
+  } */
+  
+  select{
+    background-color: #322e2e;
+    color: aliceblue;
+  }
+  
+  input ::placeholder{
+    font-size: 1px;
+  }
+  button{
+    color: #a39999;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+  
+  
+  }
+}
+
+@media (max-width: 1894px) {
+
+  .parent-of-form {
+    background: #a53f3f;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      min-height: 100vh; 
+  
+      
+   
+    }
+  
+    form{
+      background: #794242;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      border: 2px solid black;
+      width: 23%;
+      height: 900px;
+      padding: 0px 10px 10px 10px;
+      box-shadow: 4px 4px 2px 20px rgba(0, 0, 0, 0.717);
+     
+    } 
+  
+    .heading-form{
+      /* font-family: 'Cabin', sans-serif;
+  font-family: 'Handjet', cursive;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Jost', sans-serif;
+  font-family: 'Lexend', sans-serif; */
+  font-family: 'Vina Sans', cursive;
+      /* margin-top: 20px; */
+      padding: 20px 20px 20px 20px;
+      font-size: 30px;
+    }
+    
+  .info-form{
+    /* overflow: hidden; */
+      /* margin-top: 40px; */
+      gap: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     
+      /* min-height: 100vh;  */
+  
+  }
+  
+  .name-form{
+  
+    font-family: 'Cabin', sans-serif;
+    /* overflow: hidden; */
+    margin-left: 20px;
+    padding: 0px 10px 20px 40px;
+    width: 100%;
+    font-size: 20px;
+  }
+  
+  .name-form input{
+    /* zoom: 2; */
+  color: #3d3535;
+  background-color: antiquewhite;
+    /* font-size: 40px; */
+    height: 35px;
+    width: 85%;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  
+  .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+  
+  .name-form label{
+    background-color: #794242;
+  
+  }
+  
+  /* .name-form text{
+    font-size: 2px;
+  } */
+  
+  select{
+    background-color: #322e2e;
+    color: aliceblue;
+  }
+  
+  input ::placeholder{
+    font-size: 1px;
+  }
+  button{
+    color: #a39999;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+  
+  
+  }
+}
+
+@media  (max-width:1578px) {
+  .parent-of-form {
+    background: #a53f3f;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      min-height: 100vh; 
+  
+      
+   
+    }
+  
+    form{
+      background: #794242;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      border: 2px solid black;
+      width: 30%;
+      height: 900px;
+      padding: 0px 10px 10px 10px;
+      box-shadow: 4px 4px 2px 20px rgba(0, 0, 0, 0.717);
+     
+    } 
+  
+    .heading-form{
+      /* font-family: 'Cabin', sans-serif;
+  font-family: 'Handjet', cursive;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Jost', sans-serif;
+  font-family: 'Lexend', sans-serif; */
+  font-family: 'Vina Sans', cursive;
+      /* margin-top: 20px; */
+      padding: 20px 20px 20px 20px;
+      font-size: 30px;
+    }
+    
+  .info-form{
+    /* overflow: hidden; */
+      /* margin-top: 40px; */
+      gap: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     
+      /* min-height: 100vh;  */
+  
+  }
+  
+  .name-form{
+  
+    font-family: 'Cabin', sans-serif;
+    /* overflow: hidden; */
+    margin-left: 20px;
+    padding: 0px 10px 20px 40px;
+    width: 100%;
+    font-size: 20px;
+  }
+  
+  .name-form input{
+    /* zoom: 2; */
+  color: #3d3535;
+  background-color: antiquewhite;
+    /* font-size: 40px; */
+    height: 35px;
+    width: 90%;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  
+  .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+  
+  .name-form label{
+    background-color: #794242;
+  
+  }
+  
+  /* .name-form text{
+    font-size: 2px;
+  } */
+  
+  select{
+    background-color: #322e2e;
+    color: aliceblue;
+  }
+  
+  input ::placeholder{
+    font-size: 1px;
+  }
+  button{
+    color: #a39999;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+  
+  
+  }
+}
+
+@media (max-width: 1209px) {
+  .parent-of-form {
+    background: #a53f3f;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      min-height: 100vh; 
+  
+      
+   
+    }
+  
+    form{
+      background: #794242;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      border: 2px solid black;
+      width: 30%;
+      height: 900px;
+      padding: 0px 10px 10px 10px;
+      box-shadow: 4px 4px 2px 20px rgba(0, 0, 0, 0.717);
+     
+    } 
+  
+    .heading-form{
+      /* font-family: 'Cabin', sans-serif;
+  font-family: 'Handjet', cursive;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Jost', sans-serif;
+  font-family: 'Lexend', sans-serif; */
+  font-family: 'Vina Sans', cursive;
+      /* margin-top: 20px; */
+      padding: 20px 20px 20px 20px;
+      font-size: 25px;
+    }
+    
+  .info-form{
+    /* overflow: hidden; */
+      /* margin-top: 40px; */
+      gap: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     
+      /* min-height: 100vh;  */
+  
+  }
+  
+  .name-form{
+  
+    font-family: 'Cabin', sans-serif;
+    /* overflow: hidden; */
+    margin-left: 20px;
+    padding: 0px 10px 20px 40px;
+    width: 100%;
+    font-size: 20px;
+  }
+  
+  .name-form input{
+    /* zoom: 2; */
+  color: #3d3535;
+  background-color: antiquewhite;
+    /* font-size: 40px; */
+    height: 35px;
+    width: 80%;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  
+  .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+  
+  .name-form label{
+    background-color: #794242;
+  
+  }
+  
+  /* .name-form text{
+    font-size: 2px;
+  } */
+  
+  select{
+    background-color: #322e2e;
+    color: aliceblue;
+  }
+  
+  input ::placeholder{
+    font-size: 1px;
+  }
+  button{
+    color: #a39999;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+  
+  
+  }
+}
+
+@media (max-width: 1043px){
+  
+    form{
+      background: #794242;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      border: 2px solid black;
+      width: 30%;
+      height: 900px;
+      padding: 0px 10px 10px 10px;
+      box-shadow: 4px 4px 2px 20px rgba(0, 0, 0, 0.717);
+     
+    } 
+  
+    .heading-form{
+      /* font-family: 'Cabin', sans-serif;
+  font-family: 'Handjet', cursive;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Jost', sans-serif;
+  font-family: 'Lexend', sans-serif; */
+  font-family: 'Vina Sans', cursive;
+      /* margin-top: 20px; */
+      padding: 20px 20px 20px 20px;
+      font-size: 20px;
+    }
+    
+  .info-form{
+    /* overflow: hidden; */
+      /* margin-top: 40px; */
+      gap: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     
+      /* min-height: 100vh;  */
+  
+  }
+  
+  .name-form{
+  
+    font-family: 'Cabin', sans-serif;
+    /* overflow: hidden; */
+    margin-left: 20px;
+    padding: 0px 10px 20px 40px;
+    width: 100%;
+    font-size: 20px;
+  }
+  
+  .name-form input{
+    /* zoom: 2; */
+  color: #3d3535;
+  background-color: antiquewhite;
+    /* font-size: 40px; */
+    height: 30px;
+    width: 70%;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  
+  .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+  
+  .name-form label{
+    background-color: #794242;
+  
+  }
+  
+  /* .name-form text{
+    font-size: 2px;
+  } */
+  
+  select{
+    background-color: #322e2e;
+    color: aliceblue;
+  }
+  
+  input ::placeholder{
+    font-size: 1px;
+  }
+  button{
+    color: #a39999;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+  
+  
+  }
+  
+  @media (max-width: 852px){
+    .parent-of-form {
+      background: #a53f3f;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        min-height: 100vh; 
+    
+        
+     
+      }
+    
+      form{
+        background: #794242;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        border: 2px solid black;
+        width: 50%;
+        height: 900px;
+        padding: 0px 10px 10px 10px;
+        box-shadow: 4px 4px 2px 20px rgba(0, 0, 0, 0.717);
+       
+      } 
+    
+      .heading-form{
+        /* font-family: 'Cabin', sans-serif;
+    font-family: 'Handjet', cursive;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Lexend', sans-serif; */
+    font-family: 'Vina Sans', cursive;
+        /* margin-top: 20px; */
+        padding: 20px 20px 20px 20px;
+        font-size: 30px;
+      }
+      
+    .info-form{
+      /* overflow: hidden; */
+        /* margin-top: 40px; */
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+        /* min-height: 100vh;  */
+    
+    }
+    
+    .name-form{
+    
+      font-family: 'Cabin', sans-serif;
+      /* overflow: hidden; */
+      margin-left: 20px;
+      padding: 0px 10px 20px 40px;
+      width: 100%;
+      font-size: 20px;
+    }
+    
+    .name-form input{
+      /* zoom: 2; */
+    color: #3d3535;
+    background-color: antiquewhite;
+      /* font-size: 40px; */
+      height: 35px;
+      width: 90%;
+      font-size: 28px;
+      font-family: 'Poppins', sans-serif;
+    
+    }
+    
+    .nav{
+      display: flex;
+      justify-content: center;
+      align-items: center
+    }
+    
+    .name-form label{
+      background-color: #794242;
+    
+    }
+    
+    /* .name-form text{
+      font-size: 2px;
+    } */
+    
+    select{
+      background-color: #322e2e;
+      color: aliceblue;
+    }
+    
+    input ::placeholder{
+      font-size: 1px;
+    }
+    button{
+      color: #a39999;
+      background-color: black;
+      font-family: 'Poppins', sans-serif;
+    
+    
+    }
+  }}
+
+
+@media (max-width:722px) {
+  .parent-of-form {
+    background: #a53f3f;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      min-height: 100vh; 
+  
+      
+   
+    }
+  
+    form{
+      background: #794242;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      border: 2px solid black;
+      width: 60%;
+      height: 900px;
+      padding: 0px 10px 10px 10px;
+      box-shadow: 4px 4px 2px 20px rgba(0, 0, 0, 0.717);
+     
+    } 
+  
+    .heading-form{
+      /* font-family: 'Cabin', sans-serif;
+  font-family: 'Handjet', cursive;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Jost', sans-serif;
+  font-family: 'Lexend', sans-serif; */
+  font-family: 'Vina Sans', cursive;
+      /* margin-top: 20px; */
+      padding: 20px 20px 20px 20px;
+      font-size: 30px;
+    }
+    
+  .info-form{
+    /* overflow: hidden; */
+      /* margin-top: 40px; */
+      gap: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     
+      /* min-height: 100vh;  */
+  
+  }
+  
+  .name-form{
+  
+    font-family: 'Cabin', sans-serif;
+    /* overflow: hidden; */
+    margin-left: 20px;
+    padding: 0px 10px 20px 40px;
+    width: 100%;
+    font-size: 20px;
+  }
+  
+  .name-form input{
+    /* zoom: 2; */
+  color: #3d3535;
+  background-color: antiquewhite;
+    /* font-size: 40px; */
+    height: 35px;
+    width: 90%;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  
+  .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+  
+  .name-form label{
+    background-color: #794242;
+  
+  }
+  
+  /* .name-form text{
+    font-size: 2px;
+  } */
+  
+  select{
+    background-color: #322e2e;
+    color: aliceblue;
+  }
+  
+  input ::placeholder{
+    font-size: 1px;
+  }
+  button{
+    color: #a39999;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+  
+  
+  }
+  
+  
+}
+
+@media (max-width: 600px) {
+  form{
+    background: #794242;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 2px solid black;
+    width: 75%;
+    height: 900px;
+    padding: 0px 10px 10px 10px;
+    box-shadow: 4px 4px 2px 20px rgba(0, 0, 0, 0.717);
+   
+  } 
+}
+
+@media (max-width:480px) {
+  .parent-of-form {
+    background: #a53f3f;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      min-height: 100vh; 
+  
+      
+   
+    }
+  
+    form{
+      background: #794242;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      border: 2px solid black;
+      width: 60%;
+      height: 700px;
+      padding: 0px 10px 10px 10px;
+      box-shadow: 4px 4px 2px 20px rgba(0, 0, 0, 0.717);
+     
+    } 
+  
+    .heading-form{
+      /* font-family: 'Cabin', sans-serif;
+  font-family: 'Handjet', cursive;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Jost', sans-serif;
+  font-family: 'Lexend', sans-serif; */
+  font-family: 'Vina Sans', cursive;
+      /* margin-top: 20px; */
+      padding: 10px 10px 10px 10px;
+      font-size: 20px;
+    }
+    
+  .info-form{
+    /* overflow: hidden; */
+      /* margin-top: 40px; */
+      gap: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     
+      /* min-height: 100vh;  */
+  
+  }
+  
+  .name-form{
+  
+    font-family: 'Cabin', sans-serif;
+    /* overflow: hidden; */
+    margin-left: 20px;
+    padding: 0px 40px 20px 40px;
+    width: 100%;
+    font-size: 20px;
+  }
+  
+  .name-form input{
+    /* zoom: 2; */
+  color: #3d3535;
+  background-color: antiquewhite;
+    /* font-size: 40px; */
+    height: 35px;
+    width: 90%;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  
+  .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+  
+  .name-form label{
+    background-color: #794242;
+  
+  }
+  
+  /* .name-form text{
+    font-size: 2px;
+  } */
+  
+  select{
+    background-color: #322e2e;
+    color: aliceblue;
+  }
+  
+  input ::placeholder{
+    font-size: 1px;
+  }
+  button{
+    color: #a39999;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+  
+  
+  }
+}
+
+@media (max-width:395px) {
+  .parent-of-form {
+    background: #a53f3f;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      min-height: 100vh; 
+  
+      
+   
+    }
+  
+    form{
+      background: #794242;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      border: 2px solid black;
+      width: 78%;
+      height: 650px;
+      padding: 0px 10px 10px 10px;
+      box-shadow: 2px 2px 2px 10px rgba(0, 0, 0, 0.717);
+     
+    } 
+  
+    .heading-form{
+      /* font-family: 'Cabin', sans-serif;
+  font-family: 'Handjet', cursive;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Jost', sans-serif;
+  font-family: 'Lexend', sans-serif; */
+  font-family: 'Vina Sans', cursive;
+      /* margin-top: 20px; */
+      padding: 1px 1px 1px 1px;
+      font-size: 2px;
+    }
+    
+  .info-form{
+    /* overflow: hidden; */
+      /* margin-top: 40px; */
+      gap: 9px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     
+      /* min-height: 100vh;  */
+  
+  }
+  
+  .name-form{
+  
+    font-family: 'Cabin', sans-serif;
+    /* overflow: hidden; */
+    margin-left: 20px;
+    padding: 0px 10px 30px 60px;
+    width: 100%;
+    font-size: 25px;
+  }
+  
+  .name-form input{
+    /* zoom: 2; */
+  color: #3d3535;
+  background-color: antiquewhite;
+    /* font-size: 40px; */
+    height: 25px;
+    width: 60%;
+    font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+  padding-right:1px;
+  }
+  
+  .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+  
+  .name-form label{
+    background-color: #794242;
+  
+  }
+  
+  /* .name-form text{
+    font-size: 2px;
+  } */
+  
+  select{
+    background-color: #322e2e;
+    color: aliceblue;
+  }
+  
+  input ::placeholder{
+    font-size: 1px;
+  }
+  button{
+    color: #a39999;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+  
+  
+  }
+}
+
+@media (max-width:395px){
+  .parent-of-form {
+    background: #a53f3f;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      min-height: 100vh; 
+  
+      
+   
+    }
+  
+    form{
+      background: #794242;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      border: 2px solid black;
+      width: 60%;
+      height: 650px;
+      padding: 0px 10px 10px 10px;
+      box-shadow: 2px 2px 2px 10px rgba(0, 0, 0, 0.717);
+     
+    } 
+  
+    .heading-form{
+      /* font-family: 'Cabin', sans-serif;
+  font-family: 'Handjet', cursive;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Jost', sans-serif;
+  font-family: 'Lexend', sans-serif; */
+  font-family: 'Vina Sans', cursive;
+      /* margin-top: 20px; */
+      padding: 10px 10px 10px 10px;
+      font-size: 18px;
+    }
+    
+  .info-form{
+    /* overflow: hidden; */
+      /* margin-top: 40px; */
+      gap: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     
+      /* min-height: 100vh;  */
+  
+  }
+  
+  .name-form{
+  
+    font-family: 'Cabin', sans-serif;
+    /* overflow: hidden; */
+    margin-left: 20px;
+    padding: 0px 10px 30px 60px;
+    width: 100%;
+    font-size: 20px;
+  }
+  
+  .name-form input{
+    /* zoom: 2; */
+  color: #3d3535;
+  background-color: antiquewhite;
+    /* font-size: 40px; */
+    height: 25px;
+    width: 60%;
+    font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+  padding-right:1px;
+  }
+  
+  .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+  
+  .name-form label{
+    background-color: #794242;
+  
+  }
+  
+  /* .name-form text{
+    font-size: 2px;
+  } */
+  
+  select{
+    background-color: #322e2e;
+    color: aliceblue;
+  }
+  
+  input ::placeholder{
+    font-size: 1px;
+  }
+  button{
+    color: #a39999;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+  
+  
+  }
+}
